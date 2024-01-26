@@ -13,6 +13,10 @@
 .elemento2{
   flex-direction: column;
 }
+a{
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
 .tarjeta{
 
   display: flex;

@@ -1,0 +1,97 @@
+.elemento {
+  height: 84.9%;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.formuCont{
+  padding: 0;
+  width: 80%;
+  height: 90%;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.barra{
+  width: 29px;
+  height: 100%;
+  background: #FFDB2E;
+  border-radius: 20px;
+}
+
+.blanco{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+h1{
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+h2{
+  padding-bottom: 2%;
+}
+.botones{
+  padding: 0;
+  height: 83px;
+  width: 574px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+a{
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
+.button{
+  height: 100%;
+  width: 274px;
+  border-radius: 20px;
+  border: none;
+  color: #38485C;
+  margin: 10% 0;
+}
+.atras,.continuar{
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+#CIHelp{
+  color: #38485C;
+  font-weight: 350;
+}
+.atras{
+  background-color: #CBDE11;
+}
+.continuar{
+  background-color: #FFDB2E;
+}
+form{
+  width: 100%;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.dataFields{
+  max-height: 520px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  padding: 3% 0 2% 0;
+}
+.divider{
+  height: 1px;
+  width: auto;
+  background-color: #38485c;
+  margin: 4% 0;
+}

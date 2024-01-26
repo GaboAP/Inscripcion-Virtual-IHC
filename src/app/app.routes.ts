@@ -10,11 +10,13 @@ import {
   IngreseDatosPadreYMadreComponent
 } from "./Components/ingrese-datos-padre-ymadre/ingrese-datos-padre-ymadre.component";
 import {SelectColegioComponent} from "./Components/select-colegio/select-colegio.component";
+import {FechasInscripcionComponent} from "./Components/fechas-inscripcion/fechas-inscripcion.component";
 
 export const routes: Routes = [
   {
     path:"",
-    component: InicioComponent
+    component: InicioComponent,
+    title:"Bienvenido"
   },
   {
     path:"success",
@@ -43,6 +45,10 @@ export const routes: Routes = [
   {
     path:"reserve/select-school",
     component:SelectColegioComponent
+  },
+  {
+    path:"dates",
+    component:FechasInscripcionComponent
   }
 ];
 

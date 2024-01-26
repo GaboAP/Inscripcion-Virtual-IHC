@@ -1,1 +1,39 @@
-<p>ingrese-datos-tutor works!</p>
+<div class="container-fluid elemento">
+  <div class="container-fluid formuCont">
+    <div class="barra"></div>
+    <div class="container blanco">
+      <h1>Ingrese los datos del Tutor</h1>
+      <form (ngSubmit)="saveMother()">
+        <div class="dataFields">
+
+          <div class="mb-4">
+            <label for="exampleInputEmail1" class="form-label">Cédula de identidad</label>
+            <input type="number" name="ci" [(ngModel)]="datos.ci" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+            <div id="CIHelp" class="form-text">Digite un numero de 7 digitos</div>
+          </div>
+          <div class="mb-4">
+            <label for="InputdApellidoPaterno" class="form-label">Apellido Paterno</label>
+            <input type="text" name="apellidoPaterno" [(ngModel)]="datos.apellidoPaterno" class="form-control" id="InputdApellidoPaterno" required>
+          </div>
+          <div class="mb-4">
+            <label for="InputApellidoMaterno" class="form-label">Apellido Materno</label>
+            <input type="text" name="apellidoMaterno" [(ngModel)]="datos.apellidoMaterno" class="form-control" id="InputApellidoMaterno" required>
+          </div>
+          <div class="mb-4 nombreField">
+            <label for="InputNombres"  class="form-label">Nombre(s)</label>
+            <input type="text" name="nombres" [(ngModel)]="datos.nombres" class="form-control" id="InputNombres" required>
+          </div>
+
+        </div>
+
+        <div class="container botones">
+          <button type="button" class="btn atras button"><a routerLink="/reserve/who">Atrás</a></button>
+          <button type="submit" class="btn continuar button" >Continuar</button>
+        </div>
+
+      </form>
+
+    </div>
+
+  </div>
+</div>
