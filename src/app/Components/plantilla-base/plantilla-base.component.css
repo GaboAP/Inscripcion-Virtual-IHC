@@ -1,0 +1,33 @@
+.container-fluid{
+  height: 15.1vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 20px;
+  flex-shrink: 1;
+  background: #FFF;
+  box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.25);
+}
+.headerDivider {
+  width: 1px;
+  height: 55%;
+  background: #38485c;
+}
+#divider1{
+  margin-left: 3.43%;
+}
+#divider2{
+  margin-right: 3.43%;
+}
+a{
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
+.logo{
+  height: 100%;
+  padding: 0 21%;
+}

@@ -1,0 +1,74 @@
+.elementos{
+  display: flex;
+  height: 84.9%;
+}
+
+.elemento1,.elemento2{
+  display: flex;
+  justify-content: center;
+}
+.elemento1 {
+  align-items: center;
+}
+.elemento2{
+  flex-direction: column;
+}
+.tarjeta{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: white;
+  height: 497px;
+  width: 521px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+}
+.tituloInsc{
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 10px;
+}
+.descripcion{
+  padding: 10px;
+}
+.descripcion,.btnInscribir{
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.btnInscribir{
+  width: 337px;
+  height: 116px;
+  font-size: 32px;
+  border-radius: 20px;
+  background: #FFDB2E;
+  margin-left: 80px;
+  margin-bottom: 20px;
+  border-style: none;
+}
+#tarjeta1,#tarjeta2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 190px;
+  width: 220px;
+  border-radius: 20px;
+  background: #CBDE11;
+  color: black;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.30);
+}
+#tarjeta2{
+  background: #4CD3E5;
+}
+.mt-3{
+  display: flex;
+  align-items: flex-end;
+}
